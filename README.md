@@ -1,3 +1,26 @@
 # Linux-DEVOPS-Commands
 The most important commands to learn for Devops engineer.
-- 
+- WHO
+- WHOAMI
+- PWD
+- CD
+- SUDO SU
+- MAN
+- LS
+- LS-L
+- TOUCH
+- CAT
+- ECHO
+- VI/NANO
+- MKDIR
+- CLEAR
+- DATE
+- CD ..
+- RM
+- RMKDIR/ RMKDIR -R
+- CP
+- MV
+- HEAD
+- TAIL
+- MORE
+- LESS
