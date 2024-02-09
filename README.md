@@ -1,7 +1,7 @@
 # Linux-DEVOPS-Commands
 **The most important commands to learn for Devops engineer.**
-- WHO
-- WHOAMI
+- WHO  = VARIFY THE CUREENT USER LOGGED IN WITH DETAIL INFORMATION
+- WHOAMI = ONLY THE LOGGING INFO ABOUT CURRENT USER
 - PWD
 - CD
 - SUDO SU
