@@ -1,5 +1,5 @@
 # Linux-DEVOPS-Commands
-The most important commands to learn for Devops engineer.
+**The most important commands to learn for Devops engineer.**
 - WHO
 - WHOAMI
 - PWD
