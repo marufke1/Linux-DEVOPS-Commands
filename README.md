@@ -1,11 +1,11 @@
 # Linux-DEVOPS-Commands
 **The most important commands to learn for Devops engineer.**
-- WHO  = VARIFY THE CUREENT USER LOGGED IN WITH DETAIL INFORMATION
-- WHOAMI = ONLY THE LOGGING INFO ABOUT CURRENT USER
-- PWD = CURRENT DIRECTORY 
-- CD = CHANGE DIRECTPRY CD HOME/
-- SUDO SU
-- MAN
+- WHO  = Provide the current user logging info in dtail way.
+- WHOAMI = Provide only the current user logging info ex- ec2-user
+- PWD = Print the current working directory information ex- /home, /root
+- CD =  Allows to change the directory cd root/ - cd home/
+- SUDO SU = Super user has all the permissions to take any actions.
+- MAN = 
 - LS
 - LS-L
 - TOUCH
