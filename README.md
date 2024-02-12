@@ -24,9 +24,12 @@
 - HEAD = allows to print frist 5/10 lines of the content from the file ex- (head -n 5 linux.txt)
 - TAIL = allows to print last 5/10 lines of the content from the file ex - (tail -n 10 linux.txt)
 - MORE/LESS = 
-- WC = 
-- SOFT-LINK/ HARD-LINK
-- CUT
+- WC =   Provides the information about the file like- number of lines, number of columns and number of words.
+- SOFT-LINK/ HARD-LINK = Allows to create a link beteen of the file to make suce can access the content of the file very easily.
+  (ln /home/devops/linuxfile.txt hard-link.txt | ln -s /home/devops/linuxfile.txt soft-link.txt.) the main deifference between of 
+  them if we delete the main file then harlink file still remains to acces it but softlink file will be deleted even cant be 
+  accessible anymore. 
+- CUT =  Provides the small portion of the content from the file ex - (cut -b 1-3 linuxfile.txt) 
 - TEE
 - SORT
 - DIFF
@@ -52,14 +55,14 @@
 - AWK
 - SED
 - GREP
-- PING = check the connectivity for the machine make sure can communaite with other server over the internet. ex- ping google.com
-- IFCONFIG
-- NETSTAT
-- TRACE ROUTE
-- NSLOOKUP
+- PING = Check the connectivity for the machine make sure can communaite with other server over the internet. ex- ping google.com.
+- IFCONFIG = Provides the information about current network interface for the server.
+- NETSTAT = Shows the status of the network.
+- TRACE ROUTE = Count the hop count to forward the packet from source to destination. 
+- NSLOOKUP = Retrieve the ip addres inofrmation for the dns record.
 - IP = provides info about the machine ip address like - private and public.
 - HOSTNAME = info about the hostname
-- DIG = 
+- DIG = Exactly does the same thing like nslookup but in more detail way.
 - ARP = provides the information about the machine physical address like - mac address.
 - CURL/WGET = allows to download any packages for the system over the internet.
 ****
