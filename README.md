@@ -49,12 +49,14 @@
 - SU USER =  Switch between of the users.
 - GROUPADD = Create gorup ex- groupadd devops
 - USER DELETE / GROUP DELETE = Delete user and groups.
-- CHMOD = Allows to change the permission for the file and directoreies. There are 3 levels of permission on user, group and others. It contains read = 4 , write =2, and excute level permission =1 for the file and directories. ex- chmod 777 linuxfile.text means this file has read, write, and execute permission for user group and others level.
+- CHMOD = Allows to change the permission for the file and directoreies. There are 3 levels of permission on user, group and 
+  others. It contains read = 4 , write =2, and excute level permission =1 for the file and directories. ex- chmod 777 
+  linuxfile.text means this file has read, write, and execute permission for user group and others level.
 - CHOWN = Change the user ownership for the file and directories.
 - CGGRP = Change the group permission for the file and directories.
 - TAR =  Compress multiple files together ex- (tar - cvzf devops.tar.gz devops | ex- extract- tar -xvzf devops.tar.gz devops)
-- AWK
-- SED
+- AWK = Allows to print any specific line or column of the content from the file. ex- (awk '{print $1, $5}' linuxfile.txt)
+- SED = Allows to replace the keyword of the content from the file also can overwriiten the content within the file ex - (sed 's/devops/cloud/' linuxfile.txt) | (sed 's/devops/cloud/' linuxfile.txt >> linuxfile.txt)
 - GREP
 - PING = Check the connectivity for the machine make sure can communaite with other server over the internet. ex- ping google.com.
 - IFCONFIG = Provides the information about current network interface for the server.
