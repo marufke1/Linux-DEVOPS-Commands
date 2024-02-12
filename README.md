@@ -15,17 +15,16 @@
 - MKDIR = create a directory ex- mkdir devops
 - CLEAR = clear the temrinal
 - DATE = show the current date of the system
-- CD .. = allows to one step back from the current directory ex- cd devops/ cd home/
+- CD .. = allows to one step back from the current directory ex- (cd devops/ cd home/)
 - RM = remove the file from the system
 - RMDIR = remove the empty directory
 - RM -R = remove any non empty directory by using recursively
-- CP
-- MV
-- HEAD
-- TAIL
-- MORE
-- LESS
-- WC
+- CP = make a copy of the file and directory
+- MV = moving the file from one location to another
+- HEAD = allows to print frist 5/10 lines of the content from the file ex- (head -n 5 linux.txt)
+- TAIL = allows to print last 5/10 lines of the content from the file ex - (tail -n 10 linux.txt)
+- MORE/LESS = 
+- WC = 
 - SOFT-LINK/ HARD-LINK
 - CUT
 - TEE
@@ -53,15 +52,14 @@
 - AWK
 - SED
 - GREP
-- PING
-- IF CONFIG
-- NET STAT
+- PING = check the connectivity for the machine make sure can communaite with other server over the internet. ex- ping google.com
+- IFCONFIG
+- NETSTAT
 - TRACE ROUTE
 - NSLOOKUP
-- IP
-- HOSTNAME
-- DIG
-- ARP
-- CURL
-- WGET
+- IP = provides info about the machine ip address like - private and public.
+- HOSTNAME = info about the hostname
+- DIG = 
+- ARP = provides the information about the machine physical address like - mac address.
+- CURL/WGET = allows to download any packages for the system over the internet.
 ****
