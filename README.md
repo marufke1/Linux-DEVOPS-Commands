@@ -1,23 +1,24 @@
 ****# Linux-DEVOPS-Commands
 **The most important commands to learn for Devops engineer.**
-- WHO  = Provide the current user logging info in dtail way.
-- WHOAMI = Provide only the current user logging info ex- ec2-user
+- WHO  = Provides the current user logging info in dtail way.
+- WHOAMI = Provides only the current user logging info ex- ec2-user
 - PWD = Print the current working directory information ex- /home, /root
 - CD =  Allows to change the directory cd root/ - cd home/
 - SUDO SU = Super user has all the permissions to take any actions.
-- MAN = 
-- LS
-- LS-L
-- TOUCH
-- CAT
-- ECHO
-- VI/NANO
-- MKDIR
-- CLEAR
-- DATE
-- CD ..
-- RM
-- RMKDIR/ RMKDIR -R
+- MAN = provides the detail information about other commands like- man touch
+- LS = shows the list for all the files and directories have been created.
+- LS-L = exactly does the same things like ls but adding more info about the file and directories ex- permissions, user, group, creation time etc.
+- TOUCH = allows to create an empty file. ex- touch linuxfile.txt
+- CAT = allows to show the content inside of the file
+- ECHO = allows to print any output in the terminal also can redirect the contant with the file
+- VI/NANO = editor command allows to creat a file and put content inside the file at a same time
+- MKDIR = create a directory ex- mkdir devops
+- CLEAR = clear the temrinal
+- DATE = show the current date of the system
+- CD .. = allows to one step back from the current directory ex- cd devops/ cd home/
+- RM = remove the file from the system
+- RMDIR = remove the empty directory
+- RM -R = remove any non empty directory by using recursively
 - CP
 - MV
 - HEAD
