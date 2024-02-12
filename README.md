@@ -30,28 +30,29 @@
   them if we delete the main file then harlink file still remains to acces it but softlink file will be deleted even cant be 
   accessible anymore. 
 - CUT =  Provides the small portion of the content from the file ex - (cut -b 1-3 linuxfile.txt) 
-- TEE
-- SORT
-- DIFF
-- DF-H
-- FREE
-- NOHUP
-- VMSTAT
+- TEE = Allows to print any output in the terminal and also can create a file and store the output inside of the file as well. 
+  ex- (echo "Hello World!" | tee linuxfile.txt)
+- SORT = Allows to sort the content of the file based on the alphabet.
+- DIFF = Difference between of multiple files.
+- DF-H = Disk usuage commands allowss to show the information about the system disk like- used, available, etc
+- FREE = Provides the information about the memory for the system like - free, used, available etc.
+- NOHUP = 
+- VMSTAT = Provides in info about virtual machine memory
 - WHICH
 - UPTIME
 - UNAME
 - ID
-- SHUTDOWN
-- YUM/APT = INSTALL ANY PACKAGES ON THE MACHINE
-- USERADD
-- PASSWD
-- SU USER = SWITCH ONE USER TO ANOTHER USER
-- GROUPADD
-- USER DELETE / GROUP DELETE
-- CHMOD
-- CHOWN
-- CGGRP
-- TAR
+- SHUTDOWN = Terminate the machine.
+- YUM/APT =  Updating the machine and installing the packages for the machine ex- (yum install update -y | yum install git -y)
+- USERADD =  Create a newuser ex- useradd x.
+- PASSWD =   Create a passwrod for the user.
+- SU USER =  Switch between of the users.
+- GROUPADD = Create gorup ex- groupadd devops
+- USER DELETE / GROUP DELETE = Delete user and groups.
+- CHMOD = Allows to change the permission for the file and directoreies. There are 3 levels of permission on user, group and others. It contains read = 4 , write =2, and excute level permission =1 for the file and directories. ex- chmod 777 linuxfile.text means this file has read, write, and execute permission for user group and others level.
+- CHOWN = Change the user ownership for the file and directories.
+- CGGRP = Change the group permission for the file and directories.
+- TAR =  Compress multiple files together ex- (tar - cvzf devops.tar.gz devops | ex- extract- tar -xvzf devops.tar.gz devops)
 - AWK
 - SED
 - GREP
