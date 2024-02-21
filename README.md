@@ -36,7 +36,8 @@
 - SORT = Allows to sort the content of the file based on the alphabet.
 - DIFF = Difference between of multiple files.
 - DF-H = Disk usuage commands allows to show the information about the system disk like- used, available, etc
-- FREE = Provides the information about the memory for the system like - free, used, available etc.
+- FREE -m = Provides the information about the memory for the system like - free, used, available etc.
+- NPROP = to check the capacity of cpu.
 - NOHUP = Allows to store the logs/output into a different file ex- (nohup free).
 - VMSTAT = Provides the info about virtual machine memory.
 - WHICH = Provides the location about the package has been installed in the system.
